@@ -413,4 +413,3 @@ if __name__ == '__main__':
     init_db()
     is_debug = os.getenv("FLASK_DEBUG", "False").lower() in ("true", "1")
     app.run(host='0.0.0.0', port=5000, debug=is_debug)
-PYEOF
